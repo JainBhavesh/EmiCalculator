@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar color=primary>
+    <ion-title>EmiCalculation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row>
+    <ion-col size=6>
+      <ion-card>
+        <ion-card-header text-center>
+          Your base amount
+        </ion-card-header>
+        <ion-card-content text-center class="font20">
+          {{amount}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size=6>
+      <ion-card>
+        <ion-card-header text-center>
+          Your monthly payment will be
+        </ion-card-header>
+        <ion-card-content text-center class="font20">
+          {{monthlyPayment}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size=6>
+      <ion-card>
+        <ion-card-header text-center>
+          Your total interest payable amount will be
+        </ion-card-header>
+        <ion-card-content text-center class="font20">
+          {{totalInterest}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size=6>
+      <ion-card>
+        <ion-card-header text-center>
+          Your total payment will be
+        </ion-card-header>
+        <ion-card-content text-center class="font20">
+          {{TotalPayment}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>
